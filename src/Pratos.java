@@ -4,10 +4,11 @@ public class Pratos {
 	private double preço;
 	private String descricao;
 	
-	public Pratos(String nome, double preço) {
+	public Pratos(String nome, double preço, String descricao) {
 		super();
 		this.nome = nome;
 		this.preço = preço;
+		this.descricao = descricao;
 	}
 	public String getNome() {
 		return nome;
@@ -15,7 +16,7 @@ public class Pratos {
 	public double getPreço() {
 		return preço;
 	}
-		public double setPreço() {
+	public double setPreço() {
 		return preço;
 	}
 	public String getDescricao() {
