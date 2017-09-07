@@ -1,4 +1,3 @@
-
 public class Pratos {
 	private String nome;
 	private double preço;
