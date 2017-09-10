@@ -9,4 +9,17 @@ public class Restaurante {
 		System.out.println(prato2.getNome() +": "+ prato2.getPreço() + "\n" + prato2.getDescricao()+".\n");
 		System.out.println(prato3.getNome() +": "+ prato3.getPreço() + "\n" + prato3.getDescricao()+".");
 	}
+	public void mostraIng(){
+		System.out.println("Ingredientes opcionais:");
+		System.out.println(">"+Ingrediente.ingrediente1);
+		System.out.println(">"+Ingrediente.ingrediente2);
+		System.out.println(">"+Ingrediente.ingrediente3);
+		System.out.println(">"+Ingrediente.ingrediente4);
+		System.out.println(">"+Ingrediente.ingrediente5);
+		System.out.println(">"+Ingrediente.ingrediente6);
+		System.out.println(">"+Ingrediente.ingrediente7);
+		System.out.println(">"+Ingrediente.ingrediente8);
+		System.out.println(">"+Ingrediente.ingrediente9);
+		System.out.println(">"+Ingrediente.ingrediente10);
+		}
 }
